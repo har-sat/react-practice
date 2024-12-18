@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 export default function SignUp() {
     return (
@@ -8,7 +9,7 @@ export default function SignUp() {
            <input type="text" placeholder="E-mail"/>
            <input type="text" placeholder="Password"/>
            <button>Signup</button>
-           <a>Already have an account? Signin </a>
+           <Link to = "/SignIn" >Already have an account? Signin </Link>
         </div>
     )
 }
