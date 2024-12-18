@@ -16,14 +16,31 @@ code {
     monospace;
 }
 
-/* .Navbar {
-  font-family: "Comic Sans", "Comic Sans MS", cursive;
-  background-color: red;
+.signin {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 100px;
+  height: 100vh;
+  gap: 1rem;
 }
 
-.Navbar-logo
- {
-  width: 50px;
-} */
+.signin input {
+  padding: 0.5rem;
+  max-width: 300px;
+  width: 100%;
+}
+
+.signin button {
+  padding: 0.5rem;
+  max-width: 150px;
+  width: 100%;
+  cursor: pointer;
+
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  max-height: 50px;
+  height: fit-content;
+}
